@@ -2,7 +2,7 @@
 
 `What is it?` is an [OpenCV](https://opencv.org/) based object detection and recognition system.
 
-# Dependencies
+## Dependencies
 
 - [Python](https://www.python.org/)
 - [pip](https://pypi.org/project/pip/)
@@ -14,22 +14,23 @@
 - Clone the repository.
 
 ```bash
-    git clone https://github.com/prajeshElEvEn/what-is-it.git
+git clone https://github.com/prajeshElEvEn/what-is-it.git
+cd what-is-it
 ```
 
 - Install the dependencies.
 
 ```bash
-    pip install -r requirement.txt
+pip install -r requirements.txt
 ```
 
 - Run the command.
 
 ```bash
-    python main.py
+python main.py
 ```
 
-## Reference
+## References
 
 - [Murtaza's Workshop - Robotics and AI](https://www.youtube.com/watch?v=HXDD7-EnGBY)
 - [Pysource](https://www.youtube.com/watch?v=bUoWTPaKUi4)
