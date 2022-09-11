@@ -4,7 +4,8 @@
 
 ## Reference
 
-[Murtaza's Workshop - Robotics and AI](https://www.youtube.com/watch?v=HXDD7-EnGBY)
+- [Murtaza's Workshop - Robotics and AI](https://www.youtube.com/watch?v=HXDD7-EnGBY)
+- [Pysource](https://www.youtube.com/watch?v=bUoWTPaKUi4)
 
 ## Status
 
