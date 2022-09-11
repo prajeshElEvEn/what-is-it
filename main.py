@@ -1,6 +1,9 @@
 import cv2
 
 feed = cv2.VideoCapture(0)
+feed.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)
+feed.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
+
 objectList = []
 objectFile = './assets/coco.names'
 
@@ -12,7 +15,7 @@ configPath = "./model/yolov4-tiny.cfg"
 
 net = cv2.dnn.readNet(weightsPath, configPath)
 model = cv2.dnn_DetectionModel(net)
-model.setInputParams(size=(480, 480), scale=1/255)
+model.setInputParams(size=(360, 360), scale=1/255)
 
 while True:
     check, frame = feed.read()
